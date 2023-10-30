@@ -37,6 +37,7 @@ display: flex;
             /* 116.667% */
             letter-spacing: 0.54px;
             text-transform: uppercase;
+            
 }
 
 .logo-studio {
@@ -49,6 +50,7 @@ color: var(--NAVY-BLUE, #2E2F42);
     /* 116.667% */
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    
 }
 
 
@@ -57,6 +59,7 @@ display: inline-flex;
 align-items: flex-start;
 gap: 40px;
 color: #2E2F42;
+padding-left: 150px;
 }
  
 .nav-link {
@@ -69,12 +72,15 @@ color: #2E2F42;
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.32px;
+        
 }
 
 /* Address */
 
 .address-list {
     display: inline-flex;
+    gap: 40px;
+    padding-left: 100px;
 }
 
 .address-link {
@@ -84,6 +90,7 @@ color: #2E2F42;
             font-size: 16px;
             line-height: 1.5em;
             letter-spacing: 0.32px;
+            
 }
 
 .main {
@@ -303,50 +310,26 @@ color: var(--SLATE, #434455);
 
 
 .text-footer {
-    width: 264px;
-    color: var(--CLOUD, #F4F4FD);
-    
-        /* Body */
-        font-family: Roboto;
+    color: #f4f4fd;
         font-size: 16px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 24px;
-        /* 150% */
+        line-height: 1.5;
         letter-spacing: 0.32px;
 
 }
 
 .logo-footer {
-    display: flex;
-        width: 44px;
-        height: 21px;
-        flex-direction: row;
-        justify-content: center;
-        color: var(--IRIS, #4D5AE5);
-            font-family: Raleway;
-            font-size: 18px;
-            font-style: normal;
-            font-weight: 700;
-            line-height: 21px;
-            /* 116.667% */
-            letter-spacing: 0.54px;
-            text-transform: uppercase;
+font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
 }
 
 .logo-footer-studio {
-    display: flex;
-        width: 71px;
-        height: 21px;
-        flex-direction: column;
-        justify-content: center;
-    color: var(--CLOUD, #F4F4FD);
-        font-family: Raleway;
+    color: #f4f4fd;
         font-size: 18px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: 21px;
-        /* 116.667% */
+        line-height: 1.16666;
         letter-spacing: 0.54px;
-        text-transform: uppercase;
 }
