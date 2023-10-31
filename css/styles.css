@@ -48,15 +48,11 @@ color: #2E2F42;
 
 /* Address */
 
-.address-list {
-    display: inline-flex;
-    gap: 40px;
-}
-
 .address-link {
     text-decoration: none;
     color: #434455;
     font-weight: 500;
+    font-style: normal;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.32px;
@@ -67,11 +63,6 @@ color: #2E2F42;
     color: #404BBF;
 }
 
-.main {
-    width: 1440px;
-        height: 4200px;
-        background: #FFF;
-}
 /* hero image */
 
 .box-hero {
