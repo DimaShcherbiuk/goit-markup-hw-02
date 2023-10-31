@@ -36,15 +36,27 @@ body {
     line-height: 1.5em;
     letter-spacing: 0.02em;
 }
+
+.nav-menu-list > a:hover, 
+.nav-menu-list > a:focus {
+color: #404bbf;
+}
  
+
+
 .nav-link {
 color: #2E2F42;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-    color: #404BBF;
+.studio-link {
+color: #2e2f42;
 }
+
+.studio-link:hover,
+.studio-link:focus {
+    color: #404bbf;
+}
+
 
 /* Address */
 
@@ -180,27 +192,26 @@ text-align: center;
     color: #F4F4FD;
 }
 
+.logo-footer {
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
 
-.text-footer {
+.logo-footer-studio {
+    color: #f4f4fd;
+    font-size: 18px;
+    line-height: 1.16666;
+    letter-spacing: 0.54px;
+}
+
+.text-fotter {
 color: #f4f4fd;
 font-size: 16px;  
 line-height: 1.5;
 letter-spacing: 0.02em;
-}
-
-.logo-footer {
-font-family: "Raleway", sans-serif;
-color: #4d5ae5;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17;
-letter-spacing: 0.54px;
-text-transform: uppercase;
-}
-
-.logo-footer-studio {
-color: #f4f4fd;
-font-size: 18px;
-line-height: 1.16666;
-letter-spacing: 0.54px;
 }
