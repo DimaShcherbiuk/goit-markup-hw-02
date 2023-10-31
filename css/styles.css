@@ -37,26 +37,13 @@ body {
     letter-spacing: 0.02em;
 }
 
-.nav-menu-list > a:hover, 
-.nav-menu-list > a:focus {
+.nav-link {
+    color: #2E2F42;
+}
+.nav-link:hover, 
+.nav-link:focus {
 color: #404bbf;
 }
- 
-
-
-.nav-link {
-color: #2E2F42;
-}
-
-.studio-link {
-color: #2e2f42;
-}
-
-.studio-link:hover,
-.studio-link:focus {
-    color: #404bbf;
-}
-
 
 /* Address */
 
