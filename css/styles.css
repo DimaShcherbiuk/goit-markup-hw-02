@@ -48,11 +48,14 @@ color: #2E2F42;
 
 /* Address */
 
+.address-box {
+font-style: normal;
+}
+
 .address-link {
     text-decoration: none;
     color: #434455;
     font-weight: 500;
-    font-style: normal;
     font-size: 16px;
     line-height: 1.5em;
     letter-spacing: 0.32px;
@@ -87,8 +90,9 @@ color: #2E2F42;
     line-height: 1.5em;
     letter-spacing: 0.04em;
 }
-.button-order-name:hover {
-    color: #404BBF;
+.button-order-name:hover,
+.button-order-name:focus {
+    background-color: #404BBF;
 }
 
 /* Section 1 */
@@ -181,7 +185,7 @@ text-align: center;
 color: #f4f4fd;
 font-size: 16px;  
 line-height: 1.5;
-letter-spacing: 0.32px;
+letter-spacing: 0.02em;
 }
 
 .logo-footer {
